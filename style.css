@@ -1,0 +1,73 @@
+/* Type your code here */
+
+
+/* change the font family and spacing as per your project font */
+body {
+
+	background-image: url('assets/background-image1.png');
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	padding: 40px;
+
+}
+
+nav {
+	display: flex;
+	justify-content: flex-end;
+}
+
+section h1 {
+	font-size: 40px;
+	font-weight: 200px;
+
+}
+
+#box1 {
+	background-color: orangered;
+	padding: 1px;
+	margin-right: 33.8em;
+
+}
+
+#box1 ul {
+	text-decoration: none;
+	display: flex;
+	justify-content: space-between;
+	list-style: none;
+}
+
+
+table {
+	background-color: white;
+	width: 950px;
+	height: 700px;
+	font-size: 1.2rem;
+	font-weight: 8;
+	border-radius: 2px;
+	border-style: solid;
+	border-color: block;
+	position: absolute;
+	border-collapse: collapse;
+
+}
+
+th,
+td {
+	border: solid 0.5px;
+	border-left: none;
+	border-right: none;
+}
+
+.footer {
+	display: flex;
+	flex-direction: row;
+	align-content: flex-end;
+	position: relative;
+	top: 750px;
+	margin-left: 80px;
+	font-size: 18px;
+	font-family: Nunito Sans;
+	font-style: normal;
+
+}
